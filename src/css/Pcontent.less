@@ -1,0 +1,167 @@
+.Pcontent{
+    .pcontent {
+        width: 78%;
+        min-width: 768px;
+        margin: 0 auto;
+        padding: 1px;
+        .title{
+            height: 60px;
+            text-align: center;
+            font-size: 24px;
+            line-height: 60px;
+            margin: 20px auto 10px;
+            background: #fff;
+        }
+        .content{
+            border: 1px solid #ddd;
+            font-size: 16px;
+            background: #fff;
+            .project,.module,.question,.time{
+                height: 60px;
+                width: 100%;
+                border-bottom: 1px solid #ddd;
+                .label{
+                    width: 21%;
+                    height: 59px;
+                    background: #fff;
+                    float: left;
+                    text-align: right;
+                    line-height: 60px;
+                    padding-right: 3%;
+                    border-right: 1px solid #ddd;
+                }
+                .cproject,.cmodule,.cquestion,.ctime{
+                    float: right;
+                    width: 75%; 
+                    select,input{
+                        width: 83%;
+                        height: 35px;
+                        margin-top: 11px;
+                        margin-left: 3%;
+                        outline: none;
+                        border-color: #ddd;
+                    }
+                    input{
+                        border-width: 1px;
+                    }
+                }
+            }
+            .description{
+                height: 120px;
+            }
+            .description{
+                width: 100%;
+                border-bottom: 1px solid #ddd;        
+               .label{
+                    width: 21%;
+                    height: 119px;
+                    background: #fff;
+                    float: left;
+                    text-align: right;
+                    line-height: 120px;
+                    padding-right: 3%;
+                    border-right: 1px solid #ddd;    
+                }
+                .cdescription{
+                    float: right;
+                    width: 75%; 
+                    textarea{    
+                        max-width: 83%;
+                        min-width: 83%;    
+                        margin-top: 11px;
+                        margin-left: 3%;
+                        outline: none;
+                        max-height: 100px;
+                        min-height: 100px;
+                    }
+                }
+            }
+            .picture{
+                border-bottom: none;
+                height: auto;
+                .cpicture{
+                    width: 100%; 
+                    .wrapper{
+                        display: inline-block;
+                        width: 97%;
+                        margin: 5px 0;
+                        margin-left: 3%;
+                        .upWrap{
+                            .imgWrap{
+                                position: absolute;
+                                bottom: 4px;
+                                width: 100%;
+                                height: 25px;
+                                line-height: 20px;
+                                background: rgba(0, 0, 0, 0.4);
+                                text-align: center;
+                                color: #ddd;
+                                cursor: pointer;
+                            }                            
+                        }
+                        .upImg{
+                            width: 300px;
+                            height: 100px;
+                            position: relative;
+                            overflow: hidden;
+                            .upLoad{
+                                height: 100px;
+                                width: 300px;
+                                background: rgba(255, 255, 255, 0.4);
+                                .img{
+                                    float: left;
+                                    img{
+                                        display: block;
+                                        margin-top: 36px;
+                                        margin-left: 34px;
+                                        margin-right: 8px;
+                                    }
+                                }
+                                p{ 
+                                    float: left;
+                                    line-height: 100px;
+                                    text-align: center;
+                                }
+                            }
+                            .fileWrap{
+                                height: 100px;
+                                width: 300px;
+                                position: relative;
+                                opacity: 0;
+                                filter: opacity(0);
+                                input{
+                                    position: absolute;
+                                    top: -100px;
+                                    left: -25px;
+                                    height: 200px;
+                                    width: 300px;
+                                    outline: none;
+                                    font-size: 0;
+                                    background: none;
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sub{
+        width: 26%;
+        min-width: 100px;
+        display: block;
+        height: 60px;
+        background: #79b3b4;
+        color: #fff;
+        outline: none;
+        border-radius: 30px;
+        border: none;
+        @media (max-width: 1599px) {
+            margin: 25px auto 0;                
+        }        
+        @media (min-width: 1600px) {
+            margin: 50px auto 0;        
+        }
+    }
+}

@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.pheader {
+  width: 100%;
+  background: #fff;
+  height: 70px;
+}
+.pheader .container {
+  width: 64%;
+  min-width: 769px;
+  height: 70px;
+  margin: 0 auto;
+}
+.pheader .container img {
+  float: left;
+  height: 50px;
+  margin-top: 10px;
+}
+.pheader .container .title {
+  float: left;
+  margin-left: 10px;
+  font-size: 24px;
+  line-height: 70px;
+}

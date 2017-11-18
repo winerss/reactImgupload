@@ -1,0 +1,234 @@
+.Pcontent .pcontent {
+  width: 78%;
+  min-width: 768px;
+  margin: 0 auto;
+  padding: 1px;
+}
+.Pcontent .pcontent .title {
+  height: 60px;
+  text-align: center;
+  font-size: 24px;
+  line-height: 60px;
+  margin: 20px auto 10px;
+  background: #fff;
+}
+.Pcontent .pcontent .content {
+  border: 1px solid #ddd;
+  font-size: 16px;
+  background: #fff;
+}
+.Pcontent .pcontent .content .project,
+.Pcontent .pcontent .content .module,
+.Pcontent .pcontent .content .question,
+.Pcontent .pcontent .content .time {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.Pcontent .pcontent .content .project .label,
+.Pcontent .pcontent .content .module .label,
+.Pcontent .pcontent .content .question .label,
+.Pcontent .pcontent .content .time .label {
+  width: 21%;
+  height: 59px;
+  background: #fff;
+  float: left;
+  text-align: right;
+  line-height: 60px;
+  padding-right: 3%;
+  border-right: 1px solid #ddd;
+}
+.Pcontent .pcontent .content .project .cproject,
+.Pcontent .pcontent .content .module .cproject,
+.Pcontent .pcontent .content .question .cproject,
+.Pcontent .pcontent .content .time .cproject,
+.Pcontent .pcontent .content .project .cmodule,
+.Pcontent .pcontent .content .module .cmodule,
+.Pcontent .pcontent .content .question .cmodule,
+.Pcontent .pcontent .content .time .cmodule,
+.Pcontent .pcontent .content .project .cquestion,
+.Pcontent .pcontent .content .module .cquestion,
+.Pcontent .pcontent .content .question .cquestion,
+.Pcontent .pcontent .content .time .cquestion,
+.Pcontent .pcontent .content .project .ctime,
+.Pcontent .pcontent .content .module .ctime,
+.Pcontent .pcontent .content .question .ctime,
+.Pcontent .pcontent .content .time .ctime {
+  float: right;
+  width: 75%;
+}
+.Pcontent .pcontent .content .project .cproject select,
+.Pcontent .pcontent .content .module .cproject select,
+.Pcontent .pcontent .content .question .cproject select,
+.Pcontent .pcontent .content .time .cproject select,
+.Pcontent .pcontent .content .project .cmodule select,
+.Pcontent .pcontent .content .module .cmodule select,
+.Pcontent .pcontent .content .question .cmodule select,
+.Pcontent .pcontent .content .time .cmodule select,
+.Pcontent .pcontent .content .project .cquestion select,
+.Pcontent .pcontent .content .module .cquestion select,
+.Pcontent .pcontent .content .question .cquestion select,
+.Pcontent .pcontent .content .time .cquestion select,
+.Pcontent .pcontent .content .project .ctime select,
+.Pcontent .pcontent .content .module .ctime select,
+.Pcontent .pcontent .content .question .ctime select,
+.Pcontent .pcontent .content .time .ctime select,
+.Pcontent .pcontent .content .project .cproject input,
+.Pcontent .pcontent .content .module .cproject input,
+.Pcontent .pcontent .content .question .cproject input,
+.Pcontent .pcontent .content .time .cproject input,
+.Pcontent .pcontent .content .project .cmodule input,
+.Pcontent .pcontent .content .module .cmodule input,
+.Pcontent .pcontent .content .question .cmodule input,
+.Pcontent .pcontent .content .time .cmodule input,
+.Pcontent .pcontent .content .project .cquestion input,
+.Pcontent .pcontent .content .module .cquestion input,
+.Pcontent .pcontent .content .question .cquestion input,
+.Pcontent .pcontent .content .time .cquestion input,
+.Pcontent .pcontent .content .project .ctime input,
+.Pcontent .pcontent .content .module .ctime input,
+.Pcontent .pcontent .content .question .ctime input,
+.Pcontent .pcontent .content .time .ctime input {
+  width: 83%;
+  height: 35px;
+  margin-top: 11px;
+  margin-left: 3%;
+  outline: none;
+  border-color: #ddd;
+}
+.Pcontent .pcontent .content .project .cproject input,
+.Pcontent .pcontent .content .module .cproject input,
+.Pcontent .pcontent .content .question .cproject input,
+.Pcontent .pcontent .content .time .cproject input,
+.Pcontent .pcontent .content .project .cmodule input,
+.Pcontent .pcontent .content .module .cmodule input,
+.Pcontent .pcontent .content .question .cmodule input,
+.Pcontent .pcontent .content .time .cmodule input,
+.Pcontent .pcontent .content .project .cquestion input,
+.Pcontent .pcontent .content .module .cquestion input,
+.Pcontent .pcontent .content .question .cquestion input,
+.Pcontent .pcontent .content .time .cquestion input,
+.Pcontent .pcontent .content .project .ctime input,
+.Pcontent .pcontent .content .module .ctime input,
+.Pcontent .pcontent .content .question .ctime input,
+.Pcontent .pcontent .content .time .ctime input {
+  border-width: 1px;
+}
+.Pcontent .pcontent .content .description {
+  height: 120px;
+}
+.Pcontent .pcontent .content .description {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.Pcontent .pcontent .content .description .label {
+  width: 21%;
+  height: 119px;
+  background: #fff;
+  float: left;
+  text-align: right;
+  line-height: 120px;
+  padding-right: 3%;
+  border-right: 1px solid #ddd;
+}
+.Pcontent .pcontent .content .description .cdescription {
+  float: right;
+  width: 75%;
+}
+.Pcontent .pcontent .content .description .cdescription textarea {
+  max-width: 83%;
+  min-width: 83%;
+  margin-top: 11px;
+  margin-left: 3%;
+  outline: none;
+  max-height: 100px;
+  min-height: 100px;
+}
+.Pcontent .pcontent .content .picture {
+  border-bottom: none;
+  height: auto;
+}
+.Pcontent .pcontent .content .picture .cpicture {
+  width: 100%;
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper {
+  display: inline-block;
+  width: 97%;
+  margin: 5px 0;
+  margin-left: 3%;
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upWrap .imgWrap {
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  height: 25px;
+  line-height: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upImg {
+  width: 300px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upImg .upLoad {
+  height: 100px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upImg .upLoad .img {
+  float: left;
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upImg .upLoad .img img {
+  display: block;
+  margin-top: 36px;
+  margin-left: 34px;
+  margin-right: 8px;
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upImg .upLoad p {
+  float: left;
+  line-height: 100px;
+  text-align: center;
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upImg .fileWrap {
+  height: 100px;
+  width: 300px;
+  position: relative;
+  opacity: 0;
+  filter: opacity(0);
+}
+.Pcontent .pcontent .content .picture .cpicture .wrapper .upImg .fileWrap input {
+  position: absolute;
+  top: -100px;
+  left: -25px;
+  height: 200px;
+  width: 300px;
+  outline: none;
+  font-size: 0;
+  background: none;
+  border: none;
+}
+.Pcontent .sub {
+  width: 26%;
+  min-width: 100px;
+  display: block;
+  height: 60px;
+  background: #79b3b4;
+  color: #fff;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+}
+@media (max-width: 1599px) {
+  .Pcontent .sub {
+    margin: 25px auto 0;
+  }
+}
+@media (min-width: 1600px) {
+  .Pcontent .sub {
+    margin: 50px auto 0;
+  }
+}

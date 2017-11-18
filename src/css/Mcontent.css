@@ -1,0 +1,197 @@
+.Mcontent .mcontent {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1px;
+}
+.Mcontent .mcontent .title {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  margin: 10px auto;
+  background: #fff;
+}
+.Mcontent .mcontent .content {
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+.Mcontent .mcontent .content .project,
+.Mcontent .mcontent .content .module,
+.Mcontent .mcontent .content .question,
+.Mcontent .mcontent .content .time {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.Mcontent .mcontent .content .project .label,
+.Mcontent .mcontent .content .module .label,
+.Mcontent .mcontent .content .question .label,
+.Mcontent .mcontent .content .time .label {
+  width: 21%;
+  height: 59px;
+  background: #f3f3f3;
+  float: left;
+  text-align: right;
+  line-height: 60px;
+  padding-right: 3%;
+  border-right: 1px solid #ddd;
+}
+.Mcontent .mcontent .content .project .cproject,
+.Mcontent .mcontent .content .module .cproject,
+.Mcontent .mcontent .content .question .cproject,
+.Mcontent .mcontent .content .time .cproject,
+.Mcontent .mcontent .content .project .cmodule,
+.Mcontent .mcontent .content .module .cmodule,
+.Mcontent .mcontent .content .question .cmodule,
+.Mcontent .mcontent .content .time .cmodule,
+.Mcontent .mcontent .content .project .cquestion,
+.Mcontent .mcontent .content .module .cquestion,
+.Mcontent .mcontent .content .question .cquestion,
+.Mcontent .mcontent .content .time .cquestion,
+.Mcontent .mcontent .content .project .ctime,
+.Mcontent .mcontent .content .module .ctime,
+.Mcontent .mcontent .content .question .ctime,
+.Mcontent .mcontent .content .time .ctime {
+  float: right;
+  width: 75%;
+}
+.Mcontent .mcontent .content .project .cproject select,
+.Mcontent .mcontent .content .module .cproject select,
+.Mcontent .mcontent .content .question .cproject select,
+.Mcontent .mcontent .content .time .cproject select,
+.Mcontent .mcontent .content .project .cmodule select,
+.Mcontent .mcontent .content .module .cmodule select,
+.Mcontent .mcontent .content .question .cmodule select,
+.Mcontent .mcontent .content .time .cmodule select,
+.Mcontent .mcontent .content .project .cquestion select,
+.Mcontent .mcontent .content .module .cquestion select,
+.Mcontent .mcontent .content .question .cquestion select,
+.Mcontent .mcontent .content .time .cquestion select,
+.Mcontent .mcontent .content .project .ctime select,
+.Mcontent .mcontent .content .module .ctime select,
+.Mcontent .mcontent .content .question .ctime select,
+.Mcontent .mcontent .content .time .ctime select,
+.Mcontent .mcontent .content .project .cproject input,
+.Mcontent .mcontent .content .module .cproject input,
+.Mcontent .mcontent .content .question .cproject input,
+.Mcontent .mcontent .content .time .cproject input,
+.Mcontent .mcontent .content .project .cmodule input,
+.Mcontent .mcontent .content .module .cmodule input,
+.Mcontent .mcontent .content .question .cmodule input,
+.Mcontent .mcontent .content .time .cmodule input,
+.Mcontent .mcontent .content .project .cquestion input,
+.Mcontent .mcontent .content .module .cquestion input,
+.Mcontent .mcontent .content .question .cquestion input,
+.Mcontent .mcontent .content .time .cquestion input,
+.Mcontent .mcontent .content .project .ctime input,
+.Mcontent .mcontent .content .module .ctime input,
+.Mcontent .mcontent .content .question .ctime input,
+.Mcontent .mcontent .content .time .ctime input {
+  width: 83%;
+  height: 35px;
+  margin-top: 11px;
+  margin-left: 3%;
+  outline: none;
+}
+.Mcontent .mcontent .content .description {
+  height: 90px;
+}
+.Mcontent .mcontent .content .description {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.Mcontent .mcontent .content .description .label {
+  width: 21%;
+  height: 90px;
+  background: #f3f3f3;
+  float: left;
+  text-align: right;
+  line-height: 90px;
+  padding-right: 3%;
+  border-right: 1px solid #ddd;
+}
+.Mcontent .mcontent .content .description .cdescription {
+  float: right;
+  width: 75%;
+}
+.Mcontent .mcontent .content .description .cdescription textarea {
+  max-width: 83%;
+  min-width: 83%;
+  margin-top: 5px;
+  margin-left: 3%;
+  outline: none;
+  max-height: 80px;
+  min-height: 80px;
+}
+.Mcontent .mcontent .content .picture {
+  border-bottom: none;
+  height: auto;
+}
+.Mcontent .mcontent .content .picture .cpicture {
+  width: 100%;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper {
+  display: inline-block;
+  width: 100%;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upWrap .imgWrap {
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  height: 25px;
+  line-height: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upImg {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  overflow: hidden;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upImg .upLoad {
+  height: 80px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.4);
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upImg .upLoad .img {
+  float: left;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upImg .upLoad .img img {
+  display: block;
+  margin-top: 36px;
+  margin-left: 34px;
+  margin-right: 8px;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upImg .upLoad p {
+  float: left;
+  line-height: 100px;
+  text-align: center;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upImg .fileWrap {
+  height: 80px;
+  width: 100%;
+}
+.Mcontent .mcontent .content .picture .cpicture .wrapper .upImg .fileWrap input {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 80px;
+  width: 100%;
+  outline: none;
+  opacity: 0;
+  filter: opacity(0);
+}
+.Mcontent .sub {
+  width: 100px;
+  display: block;
+  height: 40px;
+  background: #79b3b4;
+  color: #fff;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  margin: 5px auto;
+}
